@@ -39,6 +39,7 @@ div{
     margin-top: 20%;
     
 }
+
 div img{
     width: 100%;
     border-radius: 1rem;
@@ -54,5 +55,12 @@ p{
    p{
     color: green;
    }
+   
+   div{
+     width: 90%;
+   }
+    
+}
+
 }
         /*for mobile*/
