@@ -13,12 +13,7 @@ html{
     flex-direction: column;
 }
 
-@media only screen and (max-width:720px) {
-    body{
-        background-color: hsl(212, 45%, 89%);
-    }
-}
-        /*for mobile*/
+
 body{
     background-color: hsl(212, 45%, 89%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,6 +22,11 @@ body{
     min-height: calc(var(--vh, 1vh)*100);
     justify-content: center;
 }
+
+h2{
+  margin-bottom: 20px;
+}
+
 
 div{
     background-color:hsl(0, 0%, 100%);
@@ -48,3 +48,11 @@ div img{
 p{
     color: red;
 }
+
+
+@media only screen and (max-width:720px) {
+   p{
+    color: green;
+   }
+}
+        /*for mobile*/
