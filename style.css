@@ -47,7 +47,7 @@ div img{
 }
 
 p{
-    color: red;
+    color: hsl(214, 16%, 83%)
 }
 
 
@@ -55,3 +55,8 @@ p{
    p{
     color: green;
    }
+   
+   div{
+     width: 80%;
+    }
+}
